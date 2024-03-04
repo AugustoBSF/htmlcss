@@ -1,0 +1,30 @@
+body{
+height: 100vh;
+background: url('../image/QPSHDX6SHLM2EKLAC3S6ETZCDI.jpg.crdownload');
+background-size: cover;
+background-attachment: fixed ;
+display: flex;
+align-items: center;
+}
+.central{
+background:rgba(233, 224, 224, 0.274);
+margin:auto;
+text-align: center;
+display: flex;
+align-items: center ;
+justify-content: center;
+width: 400px;
+height: 300px;
+border-radius: 50px;
+font-size: 100px    ;
+}
+
+.central div{
+    width: 100px;
+    height: 200x;
+    /* background: black; */
+    color: black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
