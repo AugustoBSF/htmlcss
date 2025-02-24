@@ -1,0 +1,102 @@
+
+/* Desktop-Responsividade */
+:root{
+    --indigo-dye: #274569ff;
+    --antiflash-white: #eff0f2ff;
+    --columbia-blue: #cbd6e3ff;
+    --gunmetal: #29313cff;
+    --charcoal: #334257ff;
+    --black: 000000;
+}
+
+@font-face {
+    font-family: "machi" ;
+    src: url("/fonte/King.otf");
+}
+body{
+    background-color: var(--columbia-blue);
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    height: 100vh;
+}
+img{
+    border-radius: 50%;
+    width:  200px;
+    border: 5px solid var(--indigo-dye);
+}
+.central{
+    width: 35%;
+    background: var(--antiflash-white);
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 20px var(--gunmetal);
+    
+
+}
+
+hr{
+    width: 80%;
+    background: var(--indigo-dye);
+    height: 5px;
+    border-radius: 10px;
+
+}
+h1{
+    color: var(--gunmetal);
+    font-family: 'machi';
+}
+h2{
+    color: var(--gunmetal);
+    font-family: 'machi';
+}
+h3{
+    color: var(--gunmetal);
+    text-transform: uppercase;
+    
+}
+h4{
+    color: var(--gunmetal);
+    font-family: 'machi';
+}
+.instaNumero{
+     
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+.instaNumero div{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#insta{
+    width: 10px;
+}
+#zap{
+    width: 10px;
+}
+/* Tablet - Responsividade */
+@media(max-width:1024px) and (min-width:720px){
+    body{
+        background:var(--gunmetal);
+    }
+    .central{
+        width: 50%;
+    }
+}
+/* Mobile - Responsividade */
+@media(max-width:720px){
+body{
+    background: red;
+}
+.central{
+    width: 70%;
+}
+}    
